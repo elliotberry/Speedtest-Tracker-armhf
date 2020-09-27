@@ -1,4 +1,4 @@
-FROM linuxserver/nginx
+FROM linuxserver/nginx:arm32v7-latest
 MAINTAINER henrywhitaker3@outlook.com
 
 COPY conf/ /
