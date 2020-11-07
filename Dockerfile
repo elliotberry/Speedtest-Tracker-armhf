@@ -1,5 +1,5 @@
 FROM linuxserver/nginx:arm32v7-latest
-MAINTAINER henrywhitaker3@outlook.com
+LABEL maintainer=henrywhitaker3@outlook.com
 
 COPY conf/ /
 
